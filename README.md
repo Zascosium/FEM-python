@@ -24,6 +24,17 @@ Das implementierte Beispiel zeigt ein einfaches Rechteck, bestehend aus:
 - NumPy
 - Matplotlib
 
+## Install & Run
+### 1. Klonen des Repositorys
+```console
+git clone https://github.com/Zascosium/FEM-python.git
+cd your-repo-name
+```
+### 2. Installiere notwendige Biblitheken
+```console
+pip install -r requirements.txt
+```
+
 ## Ausgabe
 
 Das Skript generiert:
