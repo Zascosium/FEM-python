@@ -53,6 +53,7 @@ Das Skript generiert:
    - Originale und deformierte Struktur (links)
    - Verteilung der Von-Mises-Spannungen (rechts)
    - Grafik wird als 'fem_result.png' gespeichert
+     ![fem_result](fem_result.png)
 
 ## Anpassung
 
