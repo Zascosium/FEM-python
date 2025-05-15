@@ -229,7 +229,9 @@ plt.grid(True)
 
 plt.tight_layout()
 plt.savefig('fem_result.png', dpi=300)  # Speichert die Abbildung in hoher Qualität
-plt.show()
+
+# Öffnet ein extra Fenster mit dem Plot (nicht unbedingt notwendig, da das Bild gespeichert wird)
+#plt.show()
 
 # Zusätzlich: Reaktionskräfte an den fixierten Knoten berechnen
 reaction_forces = np.dot(K_global, u_full) - force_vector
