@@ -27,12 +27,17 @@ Das implementierte Beispiel zeigt ein einfaches Rechteck, bestehend aus:
 ## Install & Run
 ### 1. Klonen des Repositorys
 ```console
+cd dir-where-you-want-the-repo
 git clone https://github.com/Zascosium/FEM-python.git
-cd your-repo-name
+cd FEM-python
 ```
 ### 2. Installiere notwendige Biblitheken
 ```console
 pip install -r requirements.txt
+```
+### 3. Skript ausführen
+```console
+python main.py
 ```
 
 ## Ausgabe
